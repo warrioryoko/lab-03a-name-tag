@@ -1,16 +1,16 @@
 
 .nametag {
-    border-radius: 20px;
-    border: 2px red;
     width: 400px;
     height: 250px;
 }
 
-.tag-top {
+/* .tag-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     text-align: center;
     color: white;
     height:120px;
-}
+} */
 
 .tag-name-field {
     text-align: center;
@@ -25,9 +25,39 @@
     border-bottom-right-radius: 20px;
 }
 
+.button {
+    height: 20px;
+    width: 30px;
+    margin: 10px;
+}
+
+.selector {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.name-entry {
+    margin-top: 50px;
+}
+
+#my-special-button1 {
+    background: pink;
+}
+
+#my-special-button2 {
+    background: lightgreen;
+}
+
+#my-special-button1 {
+    background: lightblue;
+}
+
 header {
     background: red;
-    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color: white;
+    height:120px;
     padding: 2px;
 }

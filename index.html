@@ -13,16 +13,32 @@
 </head>
 
 <body>
-    <div class="nametag">
-        <header>
-            <div class="tag-top">
-                Hello my name is
+    <main>
+        <div class="nametag">
+            <header id="header">
+                <!-- <div class="tag-top" id="tag-top"> -->
+                    Hello my name is
+                <!-- </div> -->
+            </header>
+            <div class="tag-name-field" id="tag-name-field">
+                Slim Shady
             </div>
-        </header>
-        <div class="tag-name-field">
-            Slim Shady
+            <div class="tag-bottom" id="tag-bottom"></div>
         </div>
-        <div class="tag-bottom"></div>
+    </main>
+
+    <div class="name-entry">
+        Tell us your name!
+        <div id="my-special-input">
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="selector">
+        <label>Please select a color!</label>
+        <button class="button" id="my-special-button1"></button>
+        <button class="button" id="my-special-button2"></button>
+        <button class="button" id="my-special-button3"></button>
     </div>
 
     <script type="module" src="app.js"></script>
