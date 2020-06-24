@@ -1,0 +1,33 @@
+
+.nametag {
+    border-radius: 20px;
+    border: 2px red;
+    width: 400px;
+    height: 250px;
+}
+
+.tag-top {
+    text-align: center;
+    color: white;
+    height:120px;
+}
+
+.tag-name-field {
+    text-align: center;
+    background: white;
+    height: 120px;
+}
+
+.tag-bottom {
+    background: red;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header {
+    background: red;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 2px;
+}
