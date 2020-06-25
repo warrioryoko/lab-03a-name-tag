@@ -27,12 +27,12 @@
 
 .button {
     height: 20px;
-    width: 30px;
+    min-width: 30px;
     margin: 10px;
 }
 
 .selector {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: left;
 }
 
@@ -48,8 +48,12 @@
     background: lightgreen;
 }
 
-#my-special-button1 {
+#my-special-button3 {
     background: lightblue;
+}
+
+#my-special-button4 {
+    background: red;
 }
 
 header {
